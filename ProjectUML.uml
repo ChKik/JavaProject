@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>RequestException</OriginalElement>
+  <nodes>
+    <node x="0.0" y="2705.988546417012">RequestsExceptionClass</node>
+    <node x="693.183890034569" y="2101.1812116789015">Entity</node>
+    <node x="499.3322258271264" y="2038.6326186378556">ID_Exception</node>
+    <node x="1709.2923381909277" y="0.0">Organization</node>
+    <node x="2056.420525089869" y="1807.6827647813807">User</node>
+    <node x="333.34403900858547" y="1878.104245422061">Service</node>
+    <node x="103.18567329282155" y="1569.671118883712">Material</node>
+    <node x="191.89544062278333" y="691.8717917905373">CustomExceptionClass</node>
+    <node x="2269.1374586319857" y="1310.4603574595124">Offers</node>
+    <node x="1910.3829884916322" y="1976.3350526028062">Admin</node>
+    <node x="0.0" y="948.4797214993151">Requests</node>
+    <node x="486.3482604132547" y="297.04675021444575">RequestException</node>
+    <node x="1685.3506692272804" y="2109.4968238371157">RequestDonation</node>
+    <node x="335.70673168735414" y="494.5369844689193">Don_Exception</node>
+    <node x="2496.8773165994853" y="0.0">RequestDonation_ExceptionClass</node>
+    <node x="2142.2073011246175" y="1484.0067315095703">Donator</node>
+    <node x="1192.2737637609619" y="1945.988546417012">Menu</node>
+    <node x="269.0" y="2705.988546417012">ID_ExceptionsClass</node>
+    <node x="110.04627025774221" y="1348.2268646135706">Main</node>
+    <node x="1298.9789985814905" y="123.12383935801154">Ben_Exception</node>
+    <node x="2196.8773165994853" y="914.4180105765571">RequestDonationList</node>
+    <node x="2074.673652944828" y="674.8967934840975">RequestDonation_ExcStructure</node>
+    <node x="854.3276180940645" y="34.649895317390474">Beneficiary</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Requests" target="RequestException">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Menu" target="Beneficiary">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Requests" target="RequestDonation">
+      <point x="2.830733839461118" y="-4.121522283104895" />
+      <point x="2.830733839461004" y="-4.121522283104923" />
+    </edge>
+    <edge source="RequestDonationList" target="CustomExceptionClass">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="RequestException" target="CustomExceptionClass">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Ben_Exception" target="Beneficiary">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="RequestDonation" target="Entity">
+      <point x="0.17810582802917452" y="4.99682682449793" />
+      <point x="0.17810582802923136" y="4.99682682449793" />
+    </edge>
+    <edge source="Organization" target="Admin">
+      <point x="4.984688359806228" y="-0.3910012220094359" />
+      <point x="4.984688359806228" y="-0.3910012220094359" />
+    </edge>
+    <edge source="Main" target="RequestDonationList">
+      <point x="-0.7458466438122286" y="-4.944058331362413" />
+      <point x="-0.7458466438122286" y="-4.944058331362413" />
+    </edge>
+    <edge source="Offers" target="Organization">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Menu" target="Entity">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Organization" target="CustomExceptionClass">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Beneficiary" target="User">
+      <point x="0.0" y="9.242643150389767" />
+      <point x="-5.945010706218227" y="1.1368683772161603E-13" />
+    </edge>
+    <edge source="Menu" target="Offers">
+      <point x="-3.4136468561919813" y="-3.6533566950422482" />
+      <point x="-3.4136468561919173" y="-3.6533566950423335" />
+    </edge>
+    <edge source="Material" target="Entity">
+      <point x="3.611365698887198" y="-3.4580395875266277" />
+      <point x="3.611365698887141" y="-3.4580395875266277" />
+    </edge>
+    <edge source="Menu" target="Requests">
+      <point x="-3.7382184736724327" y="3.3205003603513887" />
+      <point x="-3.738218473672532" y="3.3205003603514456" />
+    </edge>
+    <edge source="Main" target="Material">
+      <point x="4.811139365348481" y="-1.361226655334491" />
+      <point x="4.811139365348595" y="-1.3612266553344625" />
+    </edge>
+    <edge source="Service" target="Entity">
+      <point x="3.079500001832912" y="-3.9391216963571196" />
+      <point x="3.079500001832912" y="-3.9391216963571196" />
+    </edge>
+    <edge source="Donator" target="User">
+      <point x="4.407300683527865" y="2.3612921642555307" />
+      <point x="4.407300683527865" y="2.3612921642555875" />
+    </edge>
+    <edge source="Offers" target="RequestDonation">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Donator" target="RequestDonation">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Requests" target="Material">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Ben_Exception" target="CustomExceptionClass">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Offers" target="RequestDonationList">
+      <point x="5.001621589985007" y="0.0" />
+      <point x="5.001621589985007" y="0.0" />
+    </edge>
+    <edge source="RequestException" target="Beneficiary">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Main" target="Entity">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Main" target="Beneficiary">
+      <point x="-4.084619236174376" y="-2.8837277429525443" />
+      <point x="-4.084619236174376" y="-2.8837277429524875" />
+    </edge>
+    <edge source="Requests" target="Organization">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="ID_Exception" target="Entity">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Main" target="RequestDonation">
+      <point x="2.185439860976885" y="-4.497093796448297" />
+      <point x="2.1854398609767713" y="-4.4970937964483255" />
+    </edge>
+    <edge source="RequestDonation_ExcStructure" target="Entity">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Organization" target="Don_Exception">
+      <point x="0.6831553225433709" y="4.9531100134441886" />
+      <point x="0.6831553225433709" y="4.9531100134441886" />
+    </edge>
+    <edge source="Beneficiary" target="Requests">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="RequestException" target="RequestDonation">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Main" target="Service">
+      <point x="4.566908727270629" y="-2.035520738479107" />
+      <point x="4.566908727270743" y="-2.0355207384791356" />
+    </edge>
+    <edge source="Organization" target="Donator">
+      <point x="4.760218194349022" y="-1.5298113420252548" />
+      <point x="4.760218194349022" y="-1.529811342025198" />
+    </edge>
+    <edge source="RequestDonationList" target="RequestDonation_ExcStructure">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Ben_Exception" target="Organization">
+      <point x="14.04716241387996" y="0.0" />
+      <point x="0.0" y="-5.350412575868745" />
+    </edge>
+    <edge source="Menu" target="Organization">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Requests" target="CustomExceptionClass">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Main" target="Menu">
+      <point x="3.2020865407919246" y="-3.8401356467291237" />
+      <point x="3.2020865407918606" y="-3.8401356467290952" />
+    </edge>
+    <edge source="RequestDonation_ExcStructure" target="Organization">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Organization" target="RequestDonationList">
+      <point x="4.214725374940372" y="-2.6899981438346003" />
+      <point x="4.214725374940372" y="-2.689998143834572" />
+    </edge>
+    <edge source="Organization" target="Service">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Beneficiary" target="RequestDonationList">
+      <point x="2.8514636927730237" y="-4.1072076656528225" />
+      <point x="2.8514636927729953" y="-4.1072076656528225" />
+    </edge>
+    <edge source="Menu" target="User">
+      <point x="-2.358812963299421" y="-4.408628063714559" />
+      <point x="-2.3588129632994423" y="-4.4086280637144455" />
+    </edge>
+    <edge source="Don_Exception" target="Organization">
+      <point x="0.0" y="-5.047333883588863" />
+      <point x="0.0" y="-5.047333883588863" />
+    </edge>
+    <edge source="Admin" target="User">
+      <point x="-3.7440881629239584" y="-3.313880478872534" />
+      <point x="-3.7440881629239584" y="-3.313880478872534" />
+    </edge>
+    <edge source="Main" target="Admin">
+      <point x="1.6676896090843911" y="-4.713683418278322" />
+      <point x="1.6676896090843911" y="-4.713683418278265" />
+    </edge>
+    <edge source="Donator" target="Offers">
+      <point x="-4.866446444814869" y="-1.147910710703968" />
+      <point x="-4.8664464448147555" y="-1.1479107107039823" />
+    </edge>
+    <edge source="Menu" target="RequestDonation">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="ID_Exception" target="Organization">
+      <point x="-4.0263608651541745" y="-2.9645266373496497" />
+      <point x="-4.0263608651541745" y="-2.9645266373496497" />
+    </edge>
+    <edge source="Menu" target="Donator">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Organization" target="Beneficiary">
+      <point x="-0.9757245084134638" y="4.9038721112689245" />
+      <point x="-0.9757245084134638" y="4.903872111269038" />
+    </edge>
+    <edge source="Main" target="Organization">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Requests" target="Beneficiary">
+      <point x="-13.85170169290177" y="0.0" />
+      <point x="-13.851701692901571" y="0.0" />
+    </edge>
+    <edge source="Organization" target="Entity">
+      <point x="4.332561794022126" y="2.4957780953001247" />
+      <point x="4.332561794022126" y="2.4957780953001247" />
+    </edge>
+    <edge source="RequestException" target="Organization">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Beneficiary" target="RequestDonation">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Menu" target="RequestDonationList">
+      <point x="-3.8652393764126245" y="-3.1717384133987707" />
+      <point x="-3.8652393764125463" y="-3.1717384133987707" />
+    </edge>
+    <edge source="Don_Exception" target="Donator">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Organization" target="Material">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="RequestDonationList" target="RequestDonation">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Requests" target="RequestDonationList">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Organization" target="Ben_Exception">
+      <point x="-1.77971886872308" y="4.67253686430729" />
+      <point x="-1.779718868723137" y="4.6725368643074034" />
+    </edge>
+    <edge source="ID_Exception" target="CustomExceptionClass">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Main" target="Donator">
+      <point x="0.5358940576593341" y="-4.971198805013273" />
+      <point x="0.5358940576593341" y="-4.971198805013273" />
+    </edge>
+    <edge source="Main" target="Offers">
+      <point x="-0.0879344723180111" y="-4.999226693057466" />
+      <point x="-0.0879344723180111" y="-4.999226693057452" />
+    </edge>
+    <edge source="Organization" target="ID_Exception">
+      <point x="0.0" y="8.433049541545415" />
+      <point x="6.209080814479648" y="0.0" />
+    </edge>
+    <edge source="RequestDonation_ExcStructure" target="CustomExceptionClass">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Don_Exception" target="CustomExceptionClass">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Main" target="Requests">
+      <point x="-4.9998550572734075" y="-0.03807106850490527" />
+      <point x="-4.9998550572734075" y="-0.03807106850490527" />
+    </edge>
+  </edges>
+  <settings layout="Circular" zoom="0.5" x="1867.0" y="1866.6666666666665" />
+  <SelectedNodes>
+    <node>RequestsExceptionClass</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
